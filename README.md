@@ -1,5 +1,6 @@
 # metascan
 scan metadata for version mismatches
+
 It will scan current Anaconda/Python base prefix when no argument.
 Other than current Python/Anaconda installation folder can be specified as an argument.
 Normally it process Lib\site-packages and conda-meta folders.
@@ -10,6 +11,7 @@ Output with problems found presented below.
 I have no any idea is it really a problem or not, when I have anaconda-project with versions 0.8.3 and 0.8.4 within same base environment and no any other virtual environments created. File  Lib\site-vendors\anaconda_project\version.py has 0.8.3 inside.  
 
 d:\My\ProPy>py pico\metascan.py -p
+
 Act: d:\InstSoft\Python\Conda3x64\condabin\conda.bat activate
 Run: d:\InstSoft\Python\Conda3x64\Python.exe
 Arg: pico\metascan.py -p
