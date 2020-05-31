@@ -34,7 +34,7 @@ Version Mix:
   
   ['anaconda-project', '0.8.4', 'py_0', 'conda-meta']
 
-['anaconda-project', '0.8.4', 'py_0', 'pkgs']
+  ['anaconda-project', '0.8.4', 'py_0', 'pkgs']
   
 Version Mix:
 
@@ -43,8 +43,16 @@ Version Mix:
   ['conda-package-handling', '1.6.1', 'py37h62dcd97_0', 'conda-meta']
   
   ['conda-package-handling', '1.6.1', 'py37h62dcd97_0', 'pkgs']
+  
 Version Mix:
+
   ['setuptools', '46.4.0.post20200518', 'py3.7', 'egg-info', 'LibSP']
+  
   ['setuptools', '46.4.0', 'py37_0', 'conda-meta']
+  
   ['setuptools', '46.4.0', 'py37_0', 'pkgs']
+  
 Version mix in metadata for 3 package(s)
+
+
+
