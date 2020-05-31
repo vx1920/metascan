@@ -13,20 +13,35 @@ I have no any idea is it really a problem or not, when I have anaconda-project w
 d:\My\ProPy>py pico\metascan.py -p
 
 Act: d:\InstSoft\Python\Conda3x64\condabin\conda.bat activate
+
 Run: d:\InstSoft\Python\Conda3x64\Python.exe
+
 Arg: pico\metascan.py -p
+
  --- Scan metadata for version mismatch ---
+
 Prefix: d:\InstSoft\Python\Conda3x64
+
 LibSP : d:\InstSoft\Python\Conda3x64\Lib\site-packages
+
 conda-meta : d:\InstSoft\Python\Conda3x64\conda-meta
+
 pkgs  : d:\InstSoft\Python\Conda3x64\pkgs
+
 Version Mix:
+
   ['anaconda_project', '0.8.3', 'dist-info', 'LibSP']
+  
   ['anaconda-project', '0.8.4', 'py_0', 'conda-meta']
-  ['anaconda-project', '0.8.4', 'py_0', 'pkgs']
+
+['anaconda-project', '0.8.4', 'py_0', 'pkgs']
+  
 Version Mix:
+
   ['conda_package_handling', '1.7.0', 'dist-info', 'LibSP']
+  
   ['conda-package-handling', '1.6.1', 'py37h62dcd97_0', 'conda-meta']
+  
   ['conda-package-handling', '1.6.1', 'py37h62dcd97_0', 'pkgs']
 Version Mix:
   ['setuptools', '46.4.0.post20200518', 'py3.7', 'egg-info', 'LibSP']
