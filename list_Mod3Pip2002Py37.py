@@ -277,7 +277,7 @@ def format_for_columns(pkgs, options):
         running_showlatest = True
 
     data = []
-    if options.verbose >= 2 or any(dist_is_editable(x) for x in pkgs):
+    if options.verbose >= 1 or any(dist_is_editable(x) for x in pkgs):
         header.append("Location")
     if options.verbose >= 1 or running_columnsx :
         header.append("Installer")
